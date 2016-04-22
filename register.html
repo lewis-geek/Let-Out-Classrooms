@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+    <meta charset="UTF-8">
+    <title>注册</title>
+    <link rel="stylesheet" href="style/reset.css">
+    <link rel="stylesheet" href="style/main.css">
+    <link rel="stylesheet" href="style/font-awesome.min.css">
+</head>
+<body>
+<div class="wrapper">
+    <div class="header">
+        <div class="middle-header">
+            <div class="header-container">
+                <a class='logo' href="">
+                    <img src="img/google_motion_system.gif" alt="log">
+                </a>
+            </div>
+        </div>
+    </div>
+    <div class="main register-mian">
+        <div class="main-container register-main-container">
+            <div class="register-container-warpper">
+                <div class="register-container">
+                    <form id="register-form" action="#">
+                        <div class="form-item">
+                            <label>手机号</label>
+                            <input type="text" name="phone" id="phone" placeholder="这里写验证规则"  value="" maxlength="11" required>
+                        </div>
+                        <div class="form-item">
+                            <label>密码</label>
+                            <input type="password" placeholder="这里写验证规则" minlength="2" maxlength="16" id="password" required>
+                        </div>
+                        <div class="form-item">
+                            <label>确认密码</label>
+                            <input type="password" placeholder="这里写验证规则" minlength="2" maxlength="16" name="confirm_password" data-rule-equalTo="#password" required>
+                        </div>
+                        <div class="form-item">
+                            <label>姓名</label>
+                            <input type="text" placeholder="这里写验证规则">
+                        </div>
+                        <div class="sex-choose">
+                            <label>性别</label>
+                                <label for="sex-male">男</label>
+                                <input type="radio" name="sex" value="male" id="sex-male">
+                                <label for="sex-female">女</label>
+                                <input type="radio" name="sex" value="female" id="sex-female">
+                        </div>
+                        <div class="form-item">
+                            <label>手机验证码</label>
+                            <input type="text" placeholder="这里写验证规则" required>
+                        </div>
+                        <input type="submit" value="注册">
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="footer">
+        <div class="up-footer">
+            <div class="footer-container">
+                <div class="infor">
+                    <ul>
+                        <li>
+                            <h3>这里是标题</h3>
+                        </li>
+                        <li><a href="#">这里是内容</a></li>
+                        <li><a href="#">这里是内容</a></li>
+                        <li><a href="#">这里是内容</a></li>
+                    </ul>
+                    <ul>
+                        <li>
+                            <h3>这里是标题</h3>
+                        </li>
+                        <li><a href="#">这里是内容</a></li>
+                        <li><a href="#">这里是内容</a></li>
+                        <li><a href="#">这里是内容</a></li>
+                    </ul>
+                    <ul>
+                        <li>
+                            <h3>这里是标题</h3>
+                        </li>
+                        <li><a href="#">这里是内容</a></li>
+                        <li><a href="#">这里是内容</a></li>
+                        <li><a href="#">这里是内容</a></li>
+                    </ul>
+                    <ul>
+                        <li>
+                            <h3>这里是标题</h3>
+                        </li>
+                        <li><a href="#">这里是内容</a></li>
+                        <li><a href="#">这里是内容</a></li>
+                        <li><a href="#">这里是内容</a></li>
+                    </ul>
+                    <ul>
+                        <li>
+                            <h3>这里是标题</h3>
+                        </li>
+                        <li><a href="#">这里是内容</a></li>
+                        <li><a href="#">这里是内容</a></li>
+                        <li><a href="#">这里是内容</a></li>
+                    </ul>
+                </div>
+                <div class="online">
+                    <p class="fn-clear">
+                        <a class="online-support" href="#" target="_blank">在线咨询</a>
+                    </p>
+                    <p class="tel"><a href="tel:4000000000">400-000-0000</a></p>
+                    <p>周一至周日 9:00-18:00（仅收市话费) </p>
+                </div>
+            </div>
+        </div>
+        <div class="down-footer">
+            <div class="footer-container">
+                <div class="copyright">
+                    <div class="copy-text">Copyright © <span class="copyright-time">2016</span>, lewis-geek . All Rights
+                        Reserved.
+                    </div>
+                    <a href="#" class="icp-text">京ICP备XXXXXXXX号-1 京ICP证XXXXXXX号 京公网安备XXXXXXXXXXXXX</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="dtBox"></div>
+</div>
+<div id="return-top"></div>
+<script type="text/javascript" src='lib/jquery-2.2.3.min.js'></script>
+<script type="text/javascript" src="lib/jquery.validate.min.js"></script>
+<script type="text/javascript" src="script/messages_zh.js"></script>
+<script type="text/javascript" src='script/register.js'></script>
+</body>
+</html>
