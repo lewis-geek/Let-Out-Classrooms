@@ -77,21 +77,28 @@ a, a:hover {
     top: 50%;
     right: 0;
     -webkit-transform: translateY(-50%);
-            transform: translateY(-50%);
+    transform: translateY(-50%);
     -webkit-transition: background-color .3s;
     transition: background-color .3s;
     border-bottom: 1px solid #ccc;
+    height: 32px;
+    box-sizing: border-box;
 }
 
 #search input {
-    width: 84%;
     border: 0 none;
-    padding: 0 0 0 8px;
-    height: 31px;
+    padding: 0 0 0 2px;
     box-sizing: border-box;
     font-size: 14px;
     background-color: transparent;
     outline: none;
+    margin: 0;
+    height: 21px;
+    -webkit-transform: translateY(-50%);
+            transform: translateY(-50%);
+    position: relative;
+    top: 55%;
+    width: 200px;
 }
 
 #search input::-webkit-input-placeholder {
@@ -105,6 +112,36 @@ a, a:hover {
     color: #289FE9;
     height: 31px;
     background-color: transparent;
+}
+
+#search-info {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    background: transparent;
+    border: none;
+    outline: none;
+    /*float: left;*/
+    font-size: 14px;
+    margin: 0;
+    vertical-align: bottom;
+    /*position: relative;*/
+    /*top: 55%;*/
+    /*transform: translateY(-50%);*/
+    padding-left: 8px;
+    cursor: pointer;
+}
+
+.school-infor-container {
+    background: url("../img/f107.png") right center no-repeat;
+    background-size: 19px;
+    overflow: hidden;
+    float: left;
+    position: relative;
+    top: 55%;
+    -webkit-transform: translateY(-50%);
+            transform: translateY(-50%);
+    padding-right: 18px;
 }
 
 .bottom-header {
@@ -271,6 +308,10 @@ a, a:hover {
     text-align: center;
 }
 
+.main-container .bread-nav:first-of-type {
+    top: 13px;
+}
+
 .carousel {
     /*padding: 0 30px;*/
     margin: 0 auto;
@@ -281,7 +322,7 @@ a, a:hover {
     width: 100%;
     height: 500px;
     -o-object-fit: cover;
-       object-fit: cover;
+    object-fit: cover;
 }
 
 .carousel .slider-nav {
@@ -422,7 +463,7 @@ li.submit {
     background-color: #1b9dec;
     position: absolute;
     -webkit-transform: translate(-50%, -50%);
-            transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
     top: 50%;
     color: #fff;
     font-size: 16px;
@@ -553,7 +594,7 @@ li.submit {
     position: absolute;
     top: 50%;
     -webkit-transform: translateY(-50%);
-            transform: translateY(-50%);
+    transform: translateY(-50%);
     z-index: 5;
     border-radius: 3px;
 }
@@ -884,8 +925,6 @@ li.submit {
     background-image: none;
 }
 
-
-
 .order-info-nav li:last-child {
     border-right: 0;
 }
@@ -1162,7 +1201,7 @@ li.submit {
 
 .paging i {
     -webkit-transform: translateY(-1px);
-            transform: translateY(-1px);
+    transform: translateY(-1px);
 }
 
 /*详情页*/
@@ -1206,17 +1245,17 @@ li.submit {
     top: 50%;
     left: 50%;
     -webkit-transform: translate(-50%, -50%);
-            transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
 }
 
 .place-order .order-buttons input[type=button]:first-of-type {
     -webkit-transform: translate(-50%, -250%);
-            transform: translate(-50%, -250%)
+    transform: translate(-50%, -250%)
 }
 
 .place-order .order-buttons input[type=button]:last-of-type {
     -webkit-transform: translate(-50%, 150%);
-            transform: translate(-50%, 150%);
+    transform: translate(-50%, 150%);
 }
 
 .details-content-carousel table {
@@ -1249,8 +1288,6 @@ li.submit {
     border-right: 0;
 }
 
-
-
 .trade-description tr:last-of-type th,
 .trade-description tr:last-of-type td {
     border-bottom: 0;
@@ -1278,7 +1315,7 @@ li.submit {
     width: 100%;
     height: 600px;
     -o-object-position: center bottom;
-       object-position: center bottom;
+    object-position: center bottom;
 }
 
 .login-container-warpper {
@@ -1383,7 +1420,7 @@ li.submit {
 #user-psw-error {
     display: block;
     -webkit-transform: translateY(10px);
-            transform: translateY(10px);
+    transform: translateY(10px);
 }
 
 /*注册*/
