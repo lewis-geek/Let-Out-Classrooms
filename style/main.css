@@ -896,6 +896,7 @@ li.submit {
     color: #666;
     padding: 0;
     overflow: hidden;
+    min-height: 236px;
 }
 
 .order-info-nav {
