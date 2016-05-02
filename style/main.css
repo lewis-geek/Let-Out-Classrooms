@@ -1353,7 +1353,8 @@ li.submit {
     line-height: 18px;
     height: 18px;
     padding: 11px 8px 11px 50px;
-    border: 1px solid #ddd
+    border: 1px solid #ddd;
+    outline: none;
 }
 
 #account-submit {
