@@ -622,20 +622,22 @@ li.submit {
     padding: 6px 12px;
 }
 
+
+
 .order-table-head-row th:first-child,
-.conten-row td:first-child {
+.content-row td:first-child {
     padding-left: 16px;
     text-align: left;
 }
 
 .order-table-head-row th:last-child,
-.conten-row td:last-child,
+.content-row td:last-child,
 .total-price td {
     padding-right: 16px;
     text-align: right;
 }
 
-.conten-row img {
+.content-row img {
     height: 34px;
 }
 
@@ -1509,4 +1511,74 @@ li.submit {
     margin: 0;
     font-size: 20px;
     font-weight: 400;
+}
+
+/*管理员页面*/
+
+.admin-sidebar {
+    padding-top: 0;
+    overflow: hidden;
+}
+
+.admin-box-inner {
+    padding-top: 0 !important;
+}
+
+#admin-index body{
+    background-color: #E6E6E6;
+}
+
+#admin-index .header {
+    background-color: #FFFFFF;
+}
+
+#admin-index .order-info {
+    margin-top: 0;
+}
+
+#admin-index .paging {
+    /*margin-top: 21px;*/
+    width: 890px;
+    float: right;
+}
+
+#admin-index .order-info {
+    min-height: 250px;
+}
+
+#admin-index .order-table {
+
+}
+
+#admin-index .order-table-head-row {
+
+}
+
+#admin-index .order-table-head-row th{
+    text-align: center;
+}
+
+#admin-index .content-row td {
+    text-align: center;
+}
+
+#admin-index .function-container {
+    width: 120px;
+}
+
+#admin-index .function-container input{
+    display: inline;
+}
+
+.admin-box-header {
+    padding: 20px 20px;
+}
+
+.admin-box-header .admin-search {
+    display: inline-block;
+    margin-left: 20px;
+}
+
+.admin-box-header .admit-right-button {
+    float: right;
 }
