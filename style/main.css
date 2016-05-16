@@ -658,7 +658,7 @@ li.submit {
     border-radius: 3px;
     padding: 5px 20px 4px;
     color: #fff;
-    background-color: #99BBEE;
+    background: #99BBEE linear-gradient(hsla(0, 0%, 100%, .2), transparent);
     border: 0;
     margin: 0;
 }
@@ -792,7 +792,7 @@ li.submit {
     border-radius: 3px;
     padding: 5px 20px 4px;
     color: #fff;
-    background-color: #99BBEE;
+    background: #99BBEE linear-gradient(hsla(0, 0%, 100%, .2), transparent);
     border: 0;
     margin: 0;
 }
@@ -1052,7 +1052,7 @@ li.submit {
     border-radius: 3px;
     padding: 3px 18px 1px;
     color: #fff;
-    background-color: #99BBEE;
+    background: #99BBEE linear-gradient(hsla(0, 0%, 100%, .2), transparent);
     border: 0;
     margin: 0;
     float: right;
@@ -1240,7 +1240,7 @@ li.submit {
     border-radius: 3px;
     padding: 5px 20px 4px;
     color: #fff;
-    background-color: #99BBEE;
+    background: #99BBEE linear-gradient(hsla(0, 0%, 100%, .2), transparent);
     border: 0;
     display: block;
     margin: 0 auto 21px;
@@ -1373,7 +1373,7 @@ li.submit {
     color: #fff;
     cursor: pointer;
     margin-top: 13px;
-    background-color: #99BBEE;
+    background: #99BBEE linear-gradient(hsla(0, 0%, 100%, .2), transparent);
 }
 
 .user-name-container,
@@ -1502,10 +1502,10 @@ li.submit {
     border: 0;
     width: 400px;
     height: 52px;
-    line-height: 52px;
+    line-height: 50px;
     box-sizing: border-box;
     color: #fff;
-    background-color: #99BBEE;
+    background: #99BBEE linear-gradient(hsla(0, 0%, 100%, .2), transparent);
     border-radius: 3px;
     text-align: center;
     margin: 0;
