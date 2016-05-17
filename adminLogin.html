@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+    <meta charset="UTF-8">
+    <title>登录</title>
+    <link rel="stylesheet" href="style/reset.css">
+    <link rel="stylesheet" href="style/main.css">
+    <link rel="stylesheet" href="style/font-awesome.min.css">
+</head>
+<body>
+<div class="wrapper">
+    <div class="header">
+        <div class="middle-header">
+            <div class="header-container">
+                <a class='logo' href="">
+                    <!--<img src="img/google_motion_system.gif" alt="log">-->
+                </a>
+            </div>
+        </div>
+    </div>
+    <div class="main login-mian">
+        <div class="main-container login-main-container">
+            <img src="#" alt="背景图片">
+            <div class="login-container-warpper">
+                <div class="login-container">
+                    <div class="login-title">账户登录</div>
+                    <form id="login-form" action="#">
+                        <div class="user-name-container">
+                            <label for="user-name" class="label-icon">
+                                <i class="fa fa-user" aria-hidden="true"></i>
+                            </label>
+                            <input type="text" name="phone" id="user-name" placeholder="手机号"  value="" maxlength="11" required>
+                        </div>
+                        <div class="user-psw-container">
+                            <label for="user-psw"  class="label-icon">
+                                <i class="fa fa-lock" aria-hidden="true"></i>
+                            </label>
+                            <input type="password" id="user-psw" placeholder="密码" minlength="2" maxlength="16" required>
+                        </div>
+                        <div class="login-links">
+                            <a href="#" class="forget-psw">忘记密码</a>
+                            <a href="#" class="register">免费注册</a>
+                        </div>
+                        <input type="submit" id="account-submit">
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="dtBox"></div>
+</div>
+<div id="return-top"></div>
+<script type="text/javascript" src='lib/jquery-2.2.3.min.js'></script>
+<script type="text/javascript" src="lib/jquery.validate.min.js"></script>
+<script type="text/javascript" src="script/messages_zh.js"></script>
+<script type="text/javascript" src='script/login.js'></script>
+</body>
+</html>

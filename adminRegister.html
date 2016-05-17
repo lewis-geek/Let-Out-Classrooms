@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+    <meta charset="UTF-8">
+    <title>注册</title>
+    <link rel="stylesheet" href="style/reset.css">
+    <link rel="stylesheet" href="style/main.css">
+    <link rel="stylesheet" href="style/font-awesome.min.css">
+</head>
+<body>
+<div class="wrapper">
+    <div class="header">
+        <div class="middle-header">
+            <div class="header-container">
+                <a class='logo' href="">
+                    <!--<img src="img/google_motion_system.gif" alt="log">-->
+                </a>
+            </div>
+        </div>
+    </div>
+    <div class="main register-mian">
+        <div class="main-container register-main-container">
+            <div class="register-container-warpper">
+                <div class="register-container">
+                    <form id="register-form" action="#">
+                        <div class="form-item">
+                            <label>手机号</label>
+                            <input type="text" name="phone" id="phone" placeholder="这里写验证规则"  value="" maxlength="11" required>
+                        </div>
+                        <div class="form-item">
+                            <label>密码</label>
+                            <input type="password" placeholder="这里写验证规则" minlength="2" maxlength="16" id="password" required>
+                        </div>
+                        <div class="form-item">
+                            <label>确认密码</label>
+                            <input type="password" placeholder="这里写验证规则" minlength="2" maxlength="16" name="confirm_password" data-rule-equalTo="#password" required>
+                        </div>
+                        <div class="positon-choose">
+                            <label>地区</label>
+                            <select name="province" id="province">
+                                <option value="0">测试值</option>
+                                <option value="0">测试值</option>
+                                <option value="0">测试值</option>
+                                <option value="0">测试值</option>
+                            </select>
+                            <label for="province">省</label>
+                            <select name="city" id="city">
+                                <option value="0">测试值</option>
+                                <option value="0">测试值</option>
+                                <option value="0">测试值</option>
+                                <option value="0">测试值</option>
+                            </select>
+                            <label for="city">市</label>
+                        </div>
+                        <div class="form-item">
+                            <label>详细地址</label>
+                            <input type="text" placeholder="这里写验证规则">
+                        </div>
+                        <div class="form-item">
+                            <label>联系手机号</label>
+                            <input type="text" name="phone"  placeholder="这里写验证规则"  value="" maxlength="11" required>
+                        </div>
+                        <div class="form-item">
+                            <label>学校图片</label>
+                            <input type="text" class="upload-img" readonly value="上传图片...">
+                        </div>
+                        <input type="submit" value="注册">
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="dtBox"></div>
+</div>
+<div id="return-top"></div>
+<script type="text/javascript" src='lib/jquery-2.2.3.min.js'></script>
+<script type="text/javascript" src="lib/jquery.validate.min.js"></script>
+<script type="text/javascript" src="script/messages_zh.js"></script>
+<script type="text/javascript" src='script/register.js'></script>
+</body>
+</html>
